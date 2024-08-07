@@ -1,0 +1,30 @@
+/* em is relative to the parent's font size */
+/* rem is relative to the root's font size - html tag */
+
+/* root is HTML Tag */
+/* : :root {
+
+    font: 8px;
+} */
+
+html {
+    font-size: 24px;
+}
+
+body {
+    font-size: 48px;
+}
+
+.typography {
+    margin-top: 160px;
+    text-align: center;
+
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.styled-div {
+    font-size: 2rem;
+
+}
